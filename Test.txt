@@ -1,0 +1,36 @@
+1.)# Write a Python program to print the following string in a specific format (see the output).
+ 	Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky.
+ 	Twinkle, twinkle, little star, How I wonder what you are" Output :
+
+ 	Twinkle, twinkle, little star,
+ 		How I wonder what you are!
+ 			Up above the world so high,
+ 			Like a diamond in the sky.
+ 	Twinkle, twinkle, little star,
+ 		How I wonder what you are
+  hint: Use \t for tab and use \n for new line
+
+2.) Initialize multiple variable at same time.
+3.) concat 2 variables using '+' operators
+4.) a = "abcd". find the data type of 'a' using predefined function.
+5.) perform typecasting operation from int to float and float to string.
+6.) make a variable contain string. display 4th char of the string.
+7.) In 7th question, slice 4 elements using slicing, using both positive and negative indexing. 
+8.) find length of the string using predefined function.
+9.) Use replace method to replace a character as well as group of character.
+10.) use split and rsplit method.
+11.) concat two string using '+'.
+12.) Use left shift operator
+13.) Make use of Logical and, or and not operators. make example for each.
+14.) access index 4 element of list. slice elements using positive as well as negative indexes. 
+15.) Use 'in' and 'not in' operator to check whether an element is present or not in the list.
+16.) Add items in the list using predefined method.
+17.) Add item at specific index using predefined method.
+18.) Remove particular item from a list.  
+19.) Remove element of list using pop method.
+20.) Delete specific  element using 'del'.
+21.) clear the list using predefined method. Hint is available in the question itself.
+22.) copy a list using copy method.
+23.) Join two list using '+' and assign it to another variable.
+24.) Join 2 list using 'extend'.
+25.)join the elements of list using 'join'. use list of strings only.
