@@ -1,48 +1,68 @@
 # # Python Data Types
-# int
-# float
-# str
-# complex
-# bool
+# int ->1244
+# float -> 1.4
+# str ->"dsfeedf",'dsfdfdfd'
+# complex -> 3+4j
+# bool -> 0 or 1 or False or True
 # additional datatypes
 # list
 # tuple
 # set
 # dictionary dict
-#
 
 
-# x = 12.5 +6j
+x = 12.5
+print(type(x))
+
+x = 12.5 +6j
+print(type(x))
 # x = int(x)
 # print(x)
 # print(type(x))
 
-# a = '''jsnkcjdnkjdnslkdslkdlknc'''
-# print(a) 
-
+# a = '''jsnkcjdnkjdnslkdslkdlknc
+# xkjzxljkxkx
+# zxkhckjzxnkjcznx'''
+# print(a)
+# print(type(a))
 a = 'Faizan'
-print(a[4])
-
+print(a[-4])
+#
 # slicing
-
-# print(a[5:1:-2])
+# print(a[0:5:2])
+# print(a[4:0:-2])
 
 
 # string methods
 
-a = 'My_name is_Ronak is '
-print(a.strip())
-print(a.rstrip())
-print(a.lstrip())
+# a = '123'
+# print(a.strip())
+# print(a.rstrip())
+# print(a.lstrip())
+# print(a.lower())
+# print(a.upper())
+# print(a.capitalize())
+# print(a.title())
+# print(a.replace('is','are'))
+# print(a.split(' '))
+# print(a.is)
 
 
-print(a.lower())
-print(a.upper())
-print(a.capitalize())
-print(a.title())
-print(a.replace('is','are'))
-print(a.split('_'))
 
+a = 4.9
+print(type(a))
+b = str(a)
+print(type(b))
+c = float(a)
+print(c)
+print(complex(a))
+print(int(a))
+
+a = 1+2j
+print(type(str(a)))
+
+# a = 'skdbksjncx'
+# print(float(a))
 
 
 

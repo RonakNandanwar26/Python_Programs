@@ -167,8 +167,8 @@
 
 
 #  List
-# # access value by index
-x = ['apple', 'banana',{1:23},34, 1,-1,1.5,1+2j]
+# # # access value by index
+# x = ['apple', 'banana',{1:23},34, 1,-1,1.5,1+2j]
 # print(type(x))
 # print(x[-5][1])
 # print(x[-7:-3:-2])
@@ -179,8 +179,8 @@ x = ['apple', 'banana',{1:23},34, 1,-1,1.5,1+2j]
 
 # print(x[1])
 # add item using append
-x.append('orange')
-print(x)
+# x.append('orange')
+# print(x)
 
 
 # insert item at specific index in list using insert(index, 'item')
@@ -190,8 +190,8 @@ print(x)
 # print(x[2])
 
 # delete specific element of list using remove
-x.remove('orange')
-print(x)
+# x.remove('orange')
+# print(x)
 
 
 # pop method
@@ -204,8 +204,8 @@ print(x)
 
 
 # del list[0]
-del x[0]
-print(x)
+# del x[0]
+# print(x)
 
 # del x
 # print(x)
@@ -217,7 +217,7 @@ print(x)
 
 
 
-lst =['orange', 'banana']
+# lst =['orange', 'banana']
 # lst1 = [1,2,3]
 # # join 2 list using +
 # lst2 = lst + lst1
@@ -235,7 +235,7 @@ lst =['orange', 'banana']
 
 # orange-banana
 # join element of list using join method e.g '-'.join()list
-print(lst)
+# print(lst)
 # lst2 = 'g'.join(lst)
 # print(lst2)
 # print(type(lst2))
@@ -252,3 +252,19 @@ print(lst)
 
 # shallow copy
 # deep copy
+
+
+
+def name(x,y):
+    z = x+y
+    print(z)
+
+name(2,3)
+
+
+
+def name1(x,y):
+    z = x+y
+    return z
+
+print(z)

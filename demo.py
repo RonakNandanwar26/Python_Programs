@@ -1,28 +1,32 @@
-
 # This program prints Hello world!
-'''
-sdkuhfdskbcksdjbf
-asdjbnsdnfcljsdnf
-sdlnclksdncliw
-'''
+'''xzlcmxlkz
+zxljcnxzlkc
+zxlknclkxz'''
+
 
 # =   ==
 # print('Hello world!')
 
 print(1+2)
 
-x = 12
+x = 12.5
+print(type(x))
+print(x)
+# print(x)
+x = 5
+print(x)
+x=12
 print(x)
 
 # x = 15
 
-y = "hksdks"
-print(y)
-x = 10
-print(x)
-# print(x)
-# lst = [1,2,'kjsdnckj']
+y = 'hksdks'
 print(type(y))
+# x = 10
+# print(x)
+# print(x)
+lst = [1,2,'kjsdnckj']
+print(type(lst))
 
 x = 2020
 y = 1999
@@ -30,13 +34,10 @@ z = x-y
 print(z)
 
 
-
-
-
 # valid variable declaration
-# current = 2020
-# _birth_year122 = 1996
-# print(current-_birth_year122)
+current = 2020
+_birth_year122 = 1996
+print(current-_birth_year122)
 
 # XYZ
 # XYz
@@ -48,38 +49,40 @@ print(z)
 
 # mhds  
 # sajck9ew7ew7w08e7we07ew0
-# _x_zn_cnkjx_ = 56
+# _x_zn_cn84949kjx_ = 56
 # print(xzn_cnkjx)
-# my-zxjc
+# my-zxjc =
 # mff skjd,lsd
 
 
-# CurrentAge=32732
+
+CurrentAge = 32732
 
 
 # x=1
-# x,y,z = 'ksdhbc','sdjbc', 3
-# print(x)
-# print(y)
-# print(z)
-
-
-# x=y=z='orange'
-# print(x) 
-# print(y)
-# print(z)
+x,y,z = 'ksdhbc','sdjbc', 3
+print(x)
+print(y)
+print(z)
+# #
+# #
+x=y=z='orange'
+print(x)
+print(y)
+print(z)
 # print(x,y,z)
-# x = 'awesome'
+x = 'awesome'
+print('Python is '+ x)
+# print('Python is',9)
+# x = 'sdhd'
 # print('Python is '+ x)
-# # print('Python is',x)
+x = "Python is "
+y = "Awesome"
+z = x + y
+print(z)
+#
+#
 
-# x = "Python is "
-# y = "Awesome"
-# z = x + y
-# print(z)
-
-
-# print(4+5)
 
 
 # lst = [[['adobe'],['sales']],[['Altify'],['sales']]]

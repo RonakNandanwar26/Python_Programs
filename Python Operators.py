@@ -6,7 +6,6 @@ Logical operators
 Identity operators
 Membership operators
 Bitwise operators
-
 """
 
 # Arithmatic operators
@@ -14,9 +13,9 @@ Bitwise operators
 # print(3+2)
 # print(3-2)
 # print(3*2)
-# print(4/2)
+# print(46/4)
 # print(3**2)
-# print(3//2)
+# print(46//4)
 
 
 # Assignment operator
@@ -24,18 +23,22 @@ Bitwise operators
 
 # x= 3
 # x = x+5
+# print(x)
 # x+=5
 
 
 # comparision operator
+# ==, <=,>=,!=,<,>
+# print(2!=3)
+
 
 # print(3!=5)
 
 
 # Logical operators
 # and or not
-# x =5
-# print(not(x>=4))
+x =5
+print(not(x>4 and x<10))
 
 # Identity Operators
 
@@ -50,7 +53,7 @@ Bitwise operators
 # print(id(z))
 
 # Membership Operators
-
+# in, not in
 # x = [1,2,3,45]
 # print(8 not in x)
 
@@ -93,11 +96,12 @@ print(2^3)
 # 1 1 0
 
 # left shift
-# 5 101
-# 00 010100
+# 5  00 010100
+# 0001 0100
 
-print(5<<2)
+# print(5<<2)
 
 # Right shift
+# 5 000000 01
 # 000000 01
-print(5>>2)
+# print(5>>2)

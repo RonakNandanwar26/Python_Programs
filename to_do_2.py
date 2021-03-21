@@ -4,33 +4,32 @@
 # Tuple Identification
 a = (1,2,'orange',4.5,'a')
 # # Access the tuple values
-# print(a[4])
+print(a[4])
 # # Indexes and Ranges of Indexes
-# print(a[1:3:2])
+print(a[1:3:2])
 
 # a[2] = 5
 # print(a)
 
 # #change the values of tuple
-# lst = list(a)
-# print(lst)
-# lst[1] = 9
-# print(lst)
-# a = tuple(lst)
-# print(a)
+lst = list(a)
+print(lst)
+lst[1] = 9
+print(lst)
+a = tuple(lst)
+print(a)
 
 # # length of tuple
 print(len(a))
 # #create tuple with one item, you need to add a comma unless python will not recognize it as tuple
-b = ('dskjncdskj',)
-# print(b)
-# print(type(b))
-
+a = (1,)
+print(a)
+print(type(a))
 # # remove items
 # tuple is immutable 
 #
-# # Join 2 tuples using + operators
-c = a + b + ('a',1,1,1,1,2)
+# Join 2 tuples using + operators
+c = a + ('a',1,1,1,1,2)
 print(c)
 # # check if item exist
 print(1 in a)
@@ -38,15 +37,12 @@ print(1 in a)
 c = c.count(1)
 print(c)
 # #index method
-c = a.index(4.5)
+c = c.index(1)
 print(c)
 # #
 
-a = [1,2,2]
-print(a.count(2))
-
-
-
+# a = [1,2,2]
+# print(a.count(2))
 
 
 # set
