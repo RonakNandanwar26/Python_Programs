@@ -7,26 +7,26 @@ zxlknclkxz'''
 # =   ==
 # print('Hello world!')
 
-print(1+2)
+# print(1+2)
 
-x = 12.5
-print(type(x))
-print(x)
+# x = 1+2j
+# print(type(x))
 # print(x)
-x = 5
-print(x)
-x=12
-print(x)
+# # print(x)
+# x = 5
+# print(x)
+# x=12
+# print(x)
 
 # x = 15
 
-y = 'hksdks'
-print(type(y))
-# x = 10
+# y = 'hksdks'
+# print(type(y))
+# # x = 10
 # print(x)
 # print(x)
-lst = [1,2,'kjsdnckj']
-print(type(lst))
+# lst = [1,2,'kjsdnckj']
+# print(type(lst))
 
 x = 2020
 y = 1999
@@ -36,8 +36,8 @@ print(z)
 
 # valid variable declaration
 current = 2020
-_birth_year122 = 1996
-print(current-_birth_year122)
+_birth_year = 1996
+print(current-_birth_year)
 
 # XYZ
 # XYz
@@ -47,41 +47,48 @@ print(current-_birth_year122)
 # xYZ
 # Rules for defining variables
 
-# mhds  
+# mhds
+# f7h9zjxncljxz8zxknclkxz8 = 7
 # sajck9ew7ew7w08e7we07ew0
 # _x_zn_cn84949kjx_ = 56
 # print(xzn_cnkjx)
-# my-zxjc =
-# mff skjd,lsd
+
+# Invalid Varible declaration
+
+# my-zxjc = 8
+# mff skjdlsd
 
 
-
-CurrentAge = 32732
+# Camelcase Notation
+# CurrentAge = 32732
 
 
 # x=1
-x,y,z = 'ksdhbc','sdjbc', 3
-print(x)
-print(y)
-print(z)
+# x,y,z = 'ksdhbc','sdjbc', 3
+# print(x)
+# print(y)
+# print(z)
 # #
 # #
-x=y=z='orange'
-print(x)
-print(y)
-print(z)
+# x=y=z='orange'
+# print(x)
+# print(y)
+# print(z)
 # print(x,y,z)
-x = 'awesome'
-print('Python is '+ x)
-# print('Python is',9)
-# x = 'sdhd'
+
+
+
+# x = 'awesome'
 # print('Python is '+ x)
-x = "Python is "
-y = "Awesome"
-z = x + y
-print(z)
-#
-#
+# print('Python is',9)
+
+
+# x = "Python is"
+# y = " Awesome"
+# z = x + y
+# print(z)
+
+
 
 
 
@@ -110,3 +117,4 @@ print(z)
 
 
 
+#

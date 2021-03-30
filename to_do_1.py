@@ -168,10 +168,11 @@
 
 #  List
 # # # access value by index
+# list is an ordered and indexed and mutable data type
 # x = ['apple', 'banana',{1:23},34, 1,-1,1.5,1+2j]
 # print(type(x))
-# print(x[-5][1])
-# print(x[-7:-3:-2])
+# print(x[-7])
+# print(x[::2])
 # print(x[-3:-1])
 # print(x[-3:-1:2])
 # # length of list
@@ -184,7 +185,7 @@
 
 
 # insert item at specific index in list using insert(index, 'item')
-# x.insert(1,'watermelon')
+# x.insert(2,'watermelon')
 # print(x)
 # print(x[1])
 # print(x[2])
@@ -220,7 +221,7 @@
 # lst =['orange', 'banana']
 # lst1 = [1,2,3]
 # # join 2 list using +
-# lst2 = lst + lst1
+# lst2 = lst1 + lst
 # print(lst)
 # print(lst1)
 # print(lst2)
@@ -228,43 +229,67 @@
 
 
 # join 2 list using extend
-# lst1.extend(lst)
+# lst.extend(lst1)
 # print(lst)
 # print(lst1)
 
 
 # orange-banana
 # join element of list using join method e.g '-'.join()list
-# print(lst)
-# lst2 = 'g'.join(lst)
+# print(lst1)
+# lst1 = ['1','2','3']
+# lst2 = '-'.join(lst1)
 # print(lst2)
-# print(type(lst2))
+# # print(type(lst2))
+
+# 1-2-3
+
+# x    y
+# 12 <-|
+
+# x = 12
+# print(id(x))
+# y = 12
+# print(id(y))
+
+
+lst = [1,2,3]
+lst1 = lst
+
+print(id(lst))
+print(id(lst1))
+
+print(lst1)
+lst[1] = 'orange'
+print(lst1)
+print(lst)
+
 
 
 # copy a list
-# lst1 = [1,2,3,4]
-# lst2 = lst1.copy()
-# lst2.append('sxbcdskhcb')
-# print(id(lst1))
-# print(id(lst2))
-# print(lst1)
-# print(lst2)
+lst1 = [1,2,3,4]
+lst2 = lst1.copy()
+print(id(lst1))
+print(id(lst2))
+lst2.append('sxbcdskhcb')
+print(lst1)
+print(lst2)
 
 # shallow copy
 # deep copy
 
 
 
-def name(x,y):
-    z = x+y
-    print(z)
-
-name(2,3)
-
-
-
-def name1(x,y):
-    z = x+y
-    return z
-
-print(z)
+# def name(x,y):
+#     z = x+y
+#     print(z)
+#
+# name(2,3)
+#
+#
+#
+# def name1(x,y):
+#     z = x+y
+#     return z
+#
+# print(z)

@@ -1,4 +1,4 @@
-# # Python Data Types
+# Python Data Types
 # int ->1244
 # float -> 1.4
 # str ->"dsfeedf",'dsfdfdfd'
@@ -10,23 +10,29 @@
 # set
 # dictionary dict
 
-
-x = 12.5
-print(type(x))
-
-x = 12.5 +6j
-print(type(x))
+# x = 12.5
+# print(type(x))
+#
+# x = 12.5 +6j
+# print(type(x))
 # x = int(x)
 # print(x)
 # print(type(x))
 
+# b = 'sahcbh' \
+#     'sdjdckds'
+# print(b)
 # a = '''jsnkcjdnkjdnslkdslkdlknc
 # xkjzxljkxkx
 # zxkhckjzxnkjcznx'''
 # print(a)
-# print(type(a))
-a = 'Faizan'
-print(a[-4])
+a = 'Ronak'
+print(type(a))
+# print(a[4])
+# print(a[-1])
+
+print(a[1::2])
+# o
 #
 # slicing
 # print(a[0:5:2])
@@ -35,31 +41,40 @@ print(a[-4])
 
 # string methods
 
-# a = '123'
-# print(a.strip())
-# print(a.rstrip())
-# print(a.lstrip())
-# print(a.lower())
-# print(a.upper())
-# print(a.capitalize())
-# print(a.title())
-# print(a.replace('is','are'))
-# print(a.split(' '))
-# print(a.is)
+a = 'ronak'
+print(a.strip())
+print(a.rstrip())
+print(a.lstrip())
+print(a.lower())
+print(a.upper())
+print(a.capitalize())
+print(a.title())
+print(a.replace('is','are',1))
+print(a.split('$'))
+
+print(a.isalnum())
+print(a.isalpha())
+print(a.isdecimal())
+print(a.count('on'))
+print(a.isupper())
+print(a.islower())
+print(a.isnumeric())
+print(a.istitle())
 
 
 
-a = 4.9
-print(type(a))
-b = str(a)
-print(type(b))
-c = float(a)
-print(c)
-print(complex(a))
-print(int(a))
 
-a = 1+2j
-print(type(str(a)))
+# a = 4.9
+# print(type(a))
+# b = str(a)
+# print(type(b))
+# c = float(a)
+# print(c)
+# print(complex(a))
+# print(int(a))
+#
+# a = 1+2j
+# print(type(str(a)))
 
 # a = 'skdbksjncx'
 # print(float(a))

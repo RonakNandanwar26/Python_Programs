@@ -13,32 +13,32 @@ Bitwise operators
 # print(3+2)
 # print(3-2)
 # print(3*2)
-# print(46/4)
+# print(16/4)
 # print(3**2)
 # print(46//4)
+# print(46%4)
 
 
 # Assignment operator
 # = += -= *= /= %= **= //=
 
-# x= 3
+# x = 3
 # x = x+5
 # print(x)
 # x+=5
-
+# print(x)
 
 # comparision operator
-# ==, <=,>=,!=,<,>
-# print(2!=3)
-
-
+#  ==, <=,>=,!=,<,>
+# print(2==3)
 # print(3!=5)
+
 
 
 # Logical operators
 # and or not
-x =5
-print(not(x>4 and x<10))
+# x = 5
+# print(not(x>4))
 
 # Identity Operators
 
@@ -61,16 +61,17 @@ print(not(x>4 and x<10))
 # 2 10
 # 3 11
 #   10
-print(2 & 3)
+# print(2 & 3)
 
 # AND
+#   A B O/p
 # 0 0 0
 # 0 1 0
 # 1 0 0
 # 1 1 1
 
 # Bitwise OR
-print(2|3)
+# print(2|3)
 # 10
 # 11
 # 11
@@ -78,12 +79,13 @@ print(2|3)
 
 
 # OR
+
 # 0 0 0
 # 0 1 1
 # 1 0 1
 # 1 1 1
 
-print(2^3)
+# print(2^3)
 # 10
 # 11
 # 01
@@ -96,12 +98,12 @@ print(2^3)
 # 1 1 0
 
 # left shift
-# 5  00 010100
+# 5 00 010100
 # 0001 0100
 
 # print(5<<2)
 
 # Right shift
 # 5 000000 01
-# 000000 01
+# 0000 01
 # print(5>>2)
