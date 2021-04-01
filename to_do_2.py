@@ -1,3 +1,11 @@
+# a = (1,)
+# print(a,b)
+# print(type(a))
+# print(type(b))
+
+
+
+
 # Tuple
 # collection of ordered and immutable elements
 #
@@ -6,7 +14,7 @@
 # # Access the tuple values
 # print(a[4])
 # # Indexes and Ranges of Indexes
-# print(a[1:3:2])
+# print(a[::-2])
 
 # a[2] = 5
 # print(a)
@@ -32,12 +40,13 @@
 # c = a + ('a',1,1,1,1,2)
 # print(c)
 # # check if item exist
-# print(1 in a)
+# print(1 not in a)
 # # count method, TO count particular element in the tuple
-# c = c.count(1)
+# c = c.count(2)
 # print(c)
 # #index method
-# c = c.index(1)
+# a = ['a','b','c']
+# c = a.index('c')
 # print(c)
 # #
 
@@ -55,16 +64,16 @@
 a = {1, 2,1, 'a', 'b'}
 print(a)
 # can not Access items using index
-# print(a[1])
+
 # membership operator
-print(1 in a)
+# print(1 in a)
 # # change items
 # #  In set once set is creted you cannot change its items but you can add or update items
 # lst = list(a)
-
-# set(lst)
+# print(lst)
+# print(set(lst))
 #
-# # Add items
+# # Add itemadds
 a.add(3)
 print(a)
 # # # update items   Add multiple items
@@ -72,29 +81,28 @@ a.update(['a',2,4,1])
 print(a)
 # # length of set
 print(len(a))
-print(a)
+# print(a)
 #
 # # pop
 a.pop()
 print(a)
-
+#
 a.pop()
 print(a)
-# b = tuple()
-# print(b)
+
 # # clear
 a.clear()
 print(a)
 a.add(1)
 print(a)
-# # join two sets union
+# # # join two sets union
 set1 = {1,2,3}
 set2 = {'a','b','c'}
 set3 = set2.union(set1)
 print(set3)
 # print(set1)
 # print(set2)
-del set2
+# del set2
 # print(set2)
 
 
@@ -121,3 +129,31 @@ print(a)
 #
 # s = {}
 # print(type(s))
+
+
+
+
+
+
+
+
+
+
+
+#
+# x = 1
+# print(type(x))
+# print('Ther is '+str(x))
+# print(type(str(x)))
+# print(float(x))
+# print(type(float(x)))
+# print(complex(x))
+# print(type(complex(x)))
+# print(x)
+
+# x = '1298434374370'
+# print(type(x))
+# print(int(x))
+# y = 'a'
+# print(int(y))
+

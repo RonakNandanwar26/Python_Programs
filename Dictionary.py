@@ -1,83 +1,102 @@
 # Dictionary
 # A dictionary is a collection which is unordered, changeable and indexed.
 # In Python dictionaries are written with curly brackets, and they have keys and values.
-# a = {}
-# print(type(a))
+a = {1,2}
+print(type(a))
 
-# dct = {
-#     'bio' : 'jd',
-#     'name' : 'Ronak',
-#     'age' : 21
-# }
-# print(dct)
+dct = {
+    'bio' : 'jd',
+    'name' : 'Ronak',
+    'age' : 21
+}
+print(dct)
 #
-# # Accessing items
-# x = dct['name']
-# print(x)
+# Accessing items
+x = dct['name']
+print(x)
 #
 # # change value
-# dct['bio'] = 'sahgksabls'
-# print(dct)
-# dct[21] ='sdfdhfd'
-# print(dct)
-#
+dct['bio'] = 'sahgksabls'
+print(dct)
+dct[21] ='sdfdhfd'
+print(dct)
+
 # # print only dictionary keys
-# print(dct.keys())
+print(dct.keys())
 #
 # # print only dictionary values
-# print(dct.values())
+print(dct.values())
 #
 # # check wheather a keys is present in dict or not # membership operator
-# print('name' in dct)
-# print('address' in dct)
+print('name' in dct)
+print('address' in dct)
 #
 # # #  Dictionary length
-# print(len(dct))
+print(len(dct))
 #
 # # # Add items
-# dct['address'] = 'sdjnkjdsnbfl'
-# print(dct)
+dct['address'] = 'sdjnkjdsnbfl'
+print(dct)
 #
 # # remove items
-# dct.pop('address')
-# print(dct)
+dct.pop('address')
+print(dct)
 #
 # # popitem() method to remove element from dictionary
-# dct.popitem()
-# print(dct)
-# dct.popitem()
-# print(dct)
+dct.popitem()
+print(dct)
+dct.popitem()
+print(dct)
 #
 # # remove using del
-# del dct['name']
-# print(dct)
+del dct['name']
+print(dct)
 #
 # del dct
 # print(dct)
 #
 # # we can also delete whole dictionary using del
-# thisdict =	{
-#   "brand": ["Ford",'kdsjsd'],
-#   "model": "Mustang",
-#   "year": 1964
-# }
-# print(thisdict)
+thisdict =	{
+  "brand": ["Ford",'kdsjsd'],
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
 # # del thisdict
 # print(thisdict)
-#
+
+# empty type creation
+
+s = set()
+print(s)
+print(type(s))
+
+c = dict()
+print(c)
+print(type(c))
+
+b = ()
+print(type(b))
+
+a =[]
+print(a)
+
+
 # # to clear the dictionary
 # thisdict.clear()
 # print(thisdict)
 #
 # # copy a dictionary
-# mydict = thisdict.copy()
-# print(mydict)
-#
-# # copy using dict() method
-# mydict = dict(thisdict)
-# print(mydict)
-#
-#
+# deep copy
+print(id(thisdict))
+mydict = thisdict.copy()
+print(id(mydict))
+
+# shallow copy
+mydict = thisdict
+print(id(mydict))
+print(id(thisdict))
+
 # # Nested dictionary
 myfamily = {
   "child1" : {
@@ -115,11 +134,11 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 }
-# print(myfamily['child2']['year'])
+print(myfamily['child2']['year'])
 #
 #
 # #  get method gives value
-x = myfamily.get('child2').get('year')
+x = myfamily.get('child2').get('name')
 print(x)
 
 # # items
@@ -137,5 +156,5 @@ car = {
 car['color'] = 'red'
 print(car)
 car.update({"color": "White",'model':'asbckj','address':'kjsdksd','std':'shbdskj'})
-# #
+# # #
 print(car)
