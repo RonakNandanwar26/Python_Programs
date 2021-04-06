@@ -16,17 +16,17 @@
 # i = 1
 # while i<= 5:
 #     print(i)
-#     i += 1
+#     i+=1
+
 
 # break keyword
-# i=0
-# while i<5:
-#     if i==3:
-#     	break
-#     else:
-#     	print(i)
-#     	i+=1
-
+i = 0
+while i < 5:
+    if i == 3:
+        break
+    else:
+        print(i)
+        i += 1
 
 # for j in range(2):
 #     i = 1
@@ -48,16 +48,12 @@
 #
 # # else statement
 #
-# i = 1
-# while i < 6:
-#   print(i)
-#   i += 1
-# else:
-#   print("i is no longer less than 6")
-
-
-
-
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
 
 
 # for loop
@@ -106,13 +102,11 @@
 #         break
 
 
-
 # fruits = ["apple", "banana", "cherry"]
 # for x in fruits:
 #     if x == "banana":
 #         break
 #     print(x)
-
 
 
 # The continue Statement
@@ -198,8 +192,6 @@
 #     print('No entry with that name found.')
 
 
-
-
 # a = [1,2,3]
 # b = [4,5,6]
 # c = a + b
@@ -208,7 +200,7 @@
 
 # # Building Dictionaries
 
-book_title = ['great','expectation','great','the','adventures']
+book_title = ['great', 'expectation', 'great', 'the', 'adventures']
 word_counter = {}
 # # Method 1
 # for word in book_title:
@@ -216,7 +208,6 @@ word_counter = {}
 #         word_counter[word] = 1
 #     else:
 #         word_counter[word] += 1
-
 
 
 # print(word_counter)
@@ -279,7 +270,6 @@ word_counter = {}
 # nearest_perfect_square = 25
 
 
-
 # num_list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 # count_odd = 2
 # list_sum = 4
@@ -306,4 +296,3 @@ word_counter = {}
 
 # for i in range(10,0,-2):
 # 	print(i)
-
