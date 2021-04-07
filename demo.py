@@ -1,3 +1,5 @@
+# Single Line Comments
+
 # This program prints Hello world!
 '''xzlcmxlkz
 zxljcnxzlkc
@@ -7,12 +9,13 @@ zxlknclkxz'''
 # =   ==
 # print('Hello world!')
 
-# print(1+2)
+# print(1*2)
 
-# x = 1+2j
+# variable
+# x = 1
 # print(type(x))
 # print(x)
-# # print(x)
+#
 # x = 5
 # print(x)
 # x=12
@@ -28,16 +31,22 @@ zxlknclkxz'''
 # lst = [1,2,'kjsdnckj']
 # print(type(lst))
 
-x = 2020
-y = 1999
-z = x-y
-print(z)
+
+# x = 2021
+# y = 1999
+# z = x-y
+# print(z)
 
 
 # valid variable declaration
-current = 2020
-_birth_year = 1996
-print(current-_birth_year)
+# current_year = 2021
+# _birth_year = 1996
+# print(current_year-_birth_year)
+
+# PEP8 documentation
+
+# r9onak89 = 9
+# print(r9onak89)
 
 # XYZ
 # XYz
@@ -51,21 +60,21 @@ print(current-_birth_year)
 # f7h9zjxncljxz8zxknclkxz8 = 7
 # sajck9ew7ew7w08e7we07ew0
 # _x_zn_cn84949kjx_ = 56
-# print(xzn_cnkjx)
+# print(_x_zn_cn84949kjx_)
 
 # Invalid Varible declaration
 
 # my-zxjc = 8
-# mff skjdlsd
+# mff skjdlsd = 9
 
 
 # Camelcase Notation
 # CurrentAge = 32732
-
+# CurrentAgeOfYear2021 = 9
 
 # x=1
 # x,y,z = 'ksdhbc','sdjbc', 3
-# print(x)
+# print(x,y,z)
 # print(y)
 # print(z)
 # #
@@ -83,8 +92,8 @@ print(current-_birth_year)
 # print('Python is',9)
 
 
-# x = "Python is"
-# y = " Awesome"
+# x = "Python is "
+# y = "Awesome"
 # z = x + y
 # print(z)
 

@@ -26,12 +26,21 @@
 # xkjzxljkxkx
 # zxkhckjzxnkjcznx'''
 # print(a)
-a = 'Ronak'
-print(type(a))
-# print(a[4])
+
+# indexing in Python
+# Left to Right :-> 0 to n-1 Positive Index
+# Right to left :-> -1 to -n Negative Index
+
+# a = 'Ronak'
+# print(type(a))
+# print(a[0])
 # print(a[-1])
 
-print(a[1::2])
+# print(a[4:1:-2])
+
+# print(a[-4:-1:-2])
+
+# print(a[1::2])
 # o
 #
 # slicing
@@ -41,25 +50,31 @@ print(a[1::2])
 
 # string methods
 
-a = 'ronak'
-print(a.strip())
-print(a.rstrip())
-print(a.lstrip())
-print(a.lower())
-print(a.upper())
-print(a.capitalize())
-print(a.title())
-print(a.replace('is','are',1))
-print(a.split('$'))
+a = 'My Name Is Ronak'
+print(a)
 
-print(a.isalnum())
-print(a.isalpha())
-print(a.isdecimal())
-print(a.count('on'))
-print(a.isupper())
-print(a.islower())
-print(a.isnumeric())
-print(a.istitle())
+
+
+# print(a.strip())
+# print(a.rstrip())
+# print(a.lstrip())
+# print(a.lower())
+# print(a.upper())
+# print(a.capitalize())
+# print(a.title())
+# print(a.replace('is','are'))
+# print(a.replace('is','are',3))
+# print(a.split('is'))
+# print(a.split('is',2))
+# #
+# print(a.isalnum())
+# print(a.isalpha())
+# print(a.isdecimal())
+# print(a.count('Ronak'))
+# print(a.isupper())
+# print(a.islower())
+# print(a.isnumeric())
+# print(a.istitle())
 
 
 
