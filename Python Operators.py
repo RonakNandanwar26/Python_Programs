@@ -9,7 +9,7 @@ Bitwise operators
 """
 
 # Arithmatic operators
-# + - * / % ** //
+# + - * / % ** //(Integer Division / Floor division)
 # print(3+2)
 # print(3-2)
 # print(3*2)
@@ -20,25 +20,46 @@ Bitwise operators
 
 
 # Assignment operator
-# = += -= *= /= %= **= //=
+# =
+# shorthand operator: += -= *= /= %= **= //=
 
 # x = 3
-# x = x+5
+# x=x+5
 # print(x)
 # x+=5
+# print(x)
+# x-=5
+# print(x)
+# x*=5
+# print(x)
+# x/=5
+# print(x)
+# x**=5
+# print(x)
+# x//=5
+# print(x)
+# x%=5
 # print(x)
 
 # comparision operator
 #  ==, <=,>=,!=,<,>
 # print(2==3)
-# print(3!=5)
+# print(3<=5)
 
 
 
 # Logical operators
 # and or not
 # x = 5
-# print(not(x>4))
+# and
+# print(x>6 and x<10)
+
+# or
+# print(x<6 or x>10)
+
+# not
+# print(not(x>6 or x>10))
+
 
 # Identity Operators
 
@@ -58,13 +79,14 @@ Bitwise operators
 # print(8 not in x)
 
 #  Bitwise Operators
+# & | ^
 # 2 10
 # 3 11
 #   10
-# print(2 & 3)
+print(2 & 3)
 
 # AND
-#   A B O/p
+# A B O/p
 # 0 0 0
 # 0 1 0
 # 1 0 0
@@ -72,38 +94,37 @@ Bitwise operators
 
 # Bitwise OR
 # print(2|3)
-# 10
-# 11
-# 11
-
-
+# 2 10
+# 3 11
+#   11
 
 # OR
-
+# A B o/p
 # 0 0 0
 # 0 1 1
 # 1 0 1
 # 1 1 1
 
+# XOR
 # print(2^3)
-# 10
-# 11
-# 01
+# 2 10
+# 3 11
+#   01
 
-#
 # XOR
 # 0 0 0
 # 0 1 1
 # 1 0 1
 # 1 1 0
 
-# left shift
-# 5 00 010100
-# 0001 0100
-
+# left shift (<<)
+# 5 -> 0000 0101
+#    0 0101000
+# 5*2*2*2*2
 # print(5<<2)
 
-# Right shift
-# 5 000000 01
-# 0000 01
+# Right shift(>>)
+# 5 0000 0101
+# 000000 01
+# 5//2//2
 # print(5>>2)

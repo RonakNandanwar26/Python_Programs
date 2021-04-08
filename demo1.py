@@ -49,9 +49,9 @@
 
 
 # string methods
-
-a = 'My Name Is Ronak'
-print(a)
+#
+# a = 'My Name Is Ronak'
+# print(a)
 
 
 
@@ -78,23 +78,39 @@ print(a)
 
 
 
+# Type casting
+# int()
+# float()
+# str()
+# complex()
+# list()
+# tuple()
+# set()
+# dict()
 
-# a = 4.9
+
+a = 4.9
 # print(type(a))
-# b = str(a)
-# print(type(b))
+# a = str(a)
+# print(type(a))
 # c = float(a)
 # print(c)
+# print(type(c))
 # print(complex(a))
 # print(int(a))
 #
-# a = 1+2j
+# a = 1+0j
 # print(type(str(a)))
+# print(str(a))
+#
+# a = '4.5'
+# print(complex(4.5))
+# print(type(complex(a)))
+#
+# # int>float>complex>str
 
-# a = 'skdbksjncx'
-# print(float(a))
-
-
+# x = [1,2,3,4]
+# print(dict(x))
 
 
 # # string
