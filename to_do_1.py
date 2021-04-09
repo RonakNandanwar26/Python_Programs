@@ -169,17 +169,17 @@
 #  List
 # # # access value by index
 # list is an ordered and indexed and mutable data type
-# x = ['apple', 'banana',{1:23},34, 1,-1,1.5,1+2j]
+# x = ['apple', 'banana',{1:23},34, 1,-1,1.5,1+2j,{1,2,3},(1,2,3)]
 # print(type(x))
 # print(x[-7])
-# print(x[::2])
-# print(x[-3:-1])
-# print(x[-3:-1:2])
-# # length of list
+# print(x)
+# # print(x[-3:-1])
+# # print(x[-3:-1:2])
+# # # length of list
 # print(len(x))
-
+#
 # print(x[1])
-# add item using append
+# # add item using append
 # x.append('orange')
 # print(x)
 
@@ -193,18 +193,17 @@
 # delete specific element of list using remove
 # x.remove('orange')
 # print(x)
-
-
-# pop method
+#
+#
+# # pop method
 # x.pop()
 # print(x)
-
+#
 # x.pop(1)
 # print(x)
-
-
-
-# del list[0]
+#
+#
+#
 # del x[0]
 # print(x)
 
@@ -217,30 +216,29 @@
 # print(x)
 
 
-
-# lst =['orange', 'banana']
+#
+# lst = ['orange', 'banana']
 # lst1 = [1,2,3]
-# # join 2 list using +
-# lst2 = lst1 + lst
+# # # # join 2 list using +
+# lst2 = lst + lst1
 # print(lst)
 # print(lst1)
 # print(lst2)
 
-
-
 # join 2 list using extend
-# lst.extend(lst1)
+# lst.extend([1,2,2,3,4,5,6,6])
 # print(lst)
 # print(lst1)
 
-
+# ['orange','banana']
 # orange-banana
 # join element of list using join method e.g '-'.join()list
 # print(lst1)
 # lst1 = ['1','2','3']
+# # 1-2-3
 # lst2 = '-'.join(lst1)
 # print(lst2)
-# # print(type(lst2))
+# print(type(lst2))
 
 # 1-2-3
 
@@ -249,31 +247,31 @@
 
 # x = 12
 # print(id(x))
-# y = 12
+# y = x
 # print(id(y))
 
 
-lst = [1,2,3]
-lst1 = lst
-
-print(id(lst))
-print(id(lst1))
-
-print(lst1)
-lst[1] = 'orange'
-print(lst1)
-print(lst)
-
-
-
-# copy a list
-lst1 = [1,2,3,4]
-lst2 = lst1.copy()
-print(id(lst1))
-print(id(lst2))
-lst2.append('sxbcdskhcb')
-print(lst1)
-print(lst2)
+# lst = [1,2,3]
+# lst1 = lst
+#
+# print(id(lst))
+# print(id(lst1))
+#
+# print(lst1)
+# lst[1] = 'orange'
+# print(lst)
+# print(lst1)
+#
+#
+#
+# # copy a list
+# lst1 = [1,2,3,4]
+# lst2 = lst1.copy()
+# print(id(lst1))
+# print(id(lst2))
+# lst2.append('sxbcdskhcb')
+# print(lst1)
+# print(lst2)
 
 # shallow copy
 # deep copy

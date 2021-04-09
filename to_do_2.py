@@ -1,11 +1,3 @@
-# a = (1,)
-# print(a,b)
-# print(type(a))
-# print(type(b))
-
-
-
-
 # Tuple
 # collection of ordered and immutable elements
 #
@@ -29,6 +21,10 @@
 
 # # length of tuple
 # print(len(a))
+
+
+
+
 # #create tuple with one item, you need to add a comma unless python will not recognize it as tuple
 # a = (1,)
 # print(a)
@@ -39,19 +35,21 @@
 # Join 2 tuples using + operators
 # c = a + ('a',1,1,1,1,2)
 # print(c)
-# # check if item exist
-# print(1 not in a)
+# check if item exist
+# print(7 not in a)
+
+
 # # count method, TO count particular element in the tuple
-# c = c.count(2)
+# c = c.count(1)
 # print(c)
 # #index method
-# a = ['a','b','c']
+# a = ('a','b','c')
 # c = a.index('c')
 # print(c)
 # #
 
 # a = [1,2,2]
-# print(a.count(2))
+# print(a.count(1))
 
 
 
@@ -61,8 +59,8 @@
 # set
 # it is unordered and unidexed, so you cannot be sure in 
 # which order the item will appear
-a = {1, 2,1, 'a', 'b'}
-print(a)
+# a = {1, 2,1, 'a', 'b'}
+# print(a)
 # can not Access items using index
 
 # membership operator
@@ -74,41 +72,41 @@ print(a)
 # print(set(lst))
 #
 # # Add itemadds
-a.add(3)
-print(a)
+# a.add(3)
+# print(a)
 # # # update items   Add multiple items
-a.update(['a',2,4,1])
-print(a)
+# a.update(['a',2,4,1])
+# print(a)
 # # length of set
-print(len(a))
+# print(len(a))
 # print(a)
 #
 # # pop
-a.pop()
-print(a)
+# a.pop()
+# print(a)
 #
-a.pop()
-print(a)
+# a.pop()
+# print(a)
 
 # # clear
-a.clear()
-print(a)
-a.add(1)
-print(a)
+# a.clear()
+# print(a)
+# a.add(1)
+# print(a)
 # # # join two sets union
-set1 = {1,2,3}
-set2 = {'a','b','c'}
-set3 = set2.union(set1)
-print(set3)
+# set1 = {1,2,3}
+# set2 = {'a','b','c'}
+# set3 = set2.union(set1)
+# print(set3)
 # print(set1)
 # print(set2)
 # del set2
 # print(set2)
 
 
-lst = [1,2,3,4,5,6,3,4,5,6,3,4,5,6,4,3,2,3,4,5,4,3,3,4,5,6,6,7,5,4,2,2,4,5,6,7,5,4,3]
-a = set(lst)
-print(a)
+# lst = [1,2,3,4,5,6,3,4,5,6,3,4,5,6,4,3,2,3,4,5,4,3,3,4,5,6,6,7,5,4,2,2,4,5,6,7,5,4,3]
+# a = set(lst)
+# print(a)
 
 
 
