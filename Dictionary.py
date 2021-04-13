@@ -1,56 +1,58 @@
 # Dictionary
 # A dictionary is a collection which is unordered, changeable and indexed.
 # In Python dictionaries are written with curly brackets, and they have keys and values.
-a = {1,2}
-print(type(a))
-
-dct = {
-    'bio' : 'jd',
-    'name' : 'Ronak',
-    'age' : 21
-}
-print(dct)
+# a = {1,2}
+# print(type(a))
+#
+# dct = {
+#     'bio': 1+7j,
+#     'name' : 'Ronak',
+#     'age' : 21
+# }
+# print(dct['name'])
+# print(dct)
 #
 # Accessing items
-x = dct['name']
-print(x)
+# x = dct['name']
+# print(x)
 #
 # # change value
-dct['bio'] = 'sahgksabls'
-print(dct)
-dct[21] ='sdfdhfd'
-print(dct)
+# dct['bio'] = 'sahgksabls'
+# print(dct)
+# dct[21] ='sdfdhfd'
+# print(dct)
 
 # # print only dictionary keys
-print(dct.keys())
-#
+# print(dct.keys())
+# #
 # # print only dictionary values
-print(dct.values())
+# print(dct.values())
 #
 # # check wheather a keys is present in dict or not # membership operator
-print('name' in dct)
-print('address' in dct)
-#
+# print('name' in dct)
+# print('address' in dct)
+# To check values
+# print('name' in dct.values())
 # # #  Dictionary length
-print(len(dct))
+# print(len(dct))
 #
 # # # Add items
-dct['address'] = 'sdjnkjdsnbfl'
-print(dct)
+# dct['address'] = 'sdjnkjdsnbfl'
+# print(dct)
 #
 # # remove items
-dct.pop('address')
-print(dct)
+# dct.pop('address')
+# print(dct)
 #
 # # popitem() method to remove element from dictionary
-dct.popitem()
-print(dct)
-dct.popitem()
-print(dct)
+# dct.popitem()
+# print(dct)
+# dct.popitem()
+# print(dct)
 #
 # # remove using del
-del dct['name']
-print(dct)
+# del dct['name']
+# print(dct)
 #
 # del dct
 # print(dct)
@@ -61,25 +63,34 @@ thisdict =	{
   "model": "Mustang",
   "year": 1964
 }
-print(thisdict)
+# print(thisdict)
 # # del thisdict
 # print(thisdict)
 
 # empty type creation
+# s = {1,2,3}
+# s.clear()
+# print(s)
+#
+# dct.clear()
+# print(dct)
 
-s = set()
-print(s)
-print(type(s))
 
-c = dict()
-print(c)
-print(type(c))
+# a = set()
+# print(a)
+# a.add(1)
+# print(a)
+# print(type(a))
 
-b = ()
-print(type(b))
-
-a =[]
-print(a)
+# c = {}
+# print(c)
+# print(type(c))
+#
+# b = ()
+# print(type(b))
+#
+# a =[]
+# print(type(a))
 
 
 # # to clear the dictionary
@@ -88,16 +99,20 @@ print(a)
 #
 # # copy a dictionary
 # deep copy
-print(id(thisdict))
-mydict = thisdict.copy()
-print(id(mydict))
-
-# shallow copy
-mydict = thisdict
-print(id(mydict))
-print(id(thisdict))
-
-# # Nested dictionary
+# shallowdct = thisdict
+# print(id(shallowdct))
+# print(id(thisdict))
+# print(id(thisdict))
+# mydict = thisdict.copy()
+# print(mydict)
+# print(id(mydict))
+#
+# # shallow copy
+# mydict = thisdict
+# print(id(mydict))
+# print(id(thisdict))
+#
+# # # Nested dictionary
 myfamily = {
   "child1" : {
     "name" : {'surname':'skhdsl','middlename':'xmbdskbdk'},
@@ -113,7 +128,11 @@ myfamily = {
   }
 }
 #
-print(myfamily['child1']['year'])
+print(myfamily['child1'])
+print(myfamily['child1']['name'])
+print(myfamily['child1']['name']['middlename'])
+
+# print(myfamily.get('child1').get('name').get('surname'))
 #
 # other method
 child1 = {
@@ -128,7 +147,7 @@ child3 = {
   "name" : "Linus",
   "year" : 2011
 }
-
+#
 myfamily = {
   "child1" : child1,
   "child2" : child2,
@@ -138,16 +157,16 @@ print(myfamily['child2']['year'])
 #
 #
 # #  get method gives value
-x = myfamily.get('child2').get('name')
-print(x)
+# x = myfamily.get('child2').get('name')
+# print(x)
 
 # # items
 z = myfamily.items()
 print(z)
 #
 # # update method
-myfamily['child4']='sakjhsdkjwb'
-print(myfamily)
+# myfamily['child4']='sakjhsdkjwb'
+# print(myfamily)
 car = {
   "brand": "Ford",
   "model": "Mustang",
@@ -156,5 +175,5 @@ car = {
 car['color'] = 'red'
 print(car)
 car.update({"color": "White",'model':'asbckj','address':'kjsdksd','std':'shbdskj'})
-# # #
+# # # #
 print(car)
