@@ -9,45 +9,46 @@ zxlknclkxz'''
 # =   ==
 # print('Hello world!')
 
-# print(1*2)
+print(1*2)
 
 # variable
-# x = 1
-# print(type(x))
+x = 1
+print(type(x))
 # print(x)
 #
-# x = 5
-# print(x)
+x = 5
+print(x)
 # x=12
 # print(x)
 
 # x = 15
 
-# y = 'hksdks'
-# print(type(y))
-# # x = 10
+y = 'hksdks'
+print(type(y))
+# x = 10
 # print(x)
 # print(x)
-# lst = [1,2,'kjsdnckj']
-# print(type(lst))
+lst = [1,2,'kjsdnckj']
+print(type(lst))
 
 
-# x = 2021
-# y = 1999
-# z = x-y
-# print(z)
+x = 2021
+y = 1999
+z = x-y
+print(z)
 
 
 # valid variable declaration
-# current_year = 2021
-# _birth_year = 1996
-# print(current_year-_birth_year)
+current_year = 2021
+_birth_year = 1996
+print(current_year-_birth_year)
 
 # PEP8 documentation
 
 # r9onak89 = 9
 # print(r9onak89)
 
+# case sensitive
 # XYZ
 # XYz
 # XyZ
@@ -55,6 +56,7 @@ zxlknclkxz'''
 # xyx
 # xYZ
 # Rules for defining variables
+# k0c8 = 6
 
 # mhds
 # f7h9zjxncljxz8zxknclkxz8 = 7
@@ -73,29 +75,29 @@ zxlknclkxz'''
 # CurrentAgeOfYear2021 = 9
 
 # x=1
-# x,y,z = 'ksdhbc','sdjbc', 3
-# print(x,y,z)
+x,y,z = 'ksdhbc','sdjbc', 3
+print(x,y,z)
 # print(y)
 # print(z)
 # #
 # #
-# x=y=z='orange'
-# print(x)
-# print(y)
-# print(z)
+x=y=z='orange'
+print(x)
+print(y)
+print(z)
 # print(x,y,z)
 
 
 
-# x = 'awesome'
-# print('Python is '+ x)
-# print('Python is',9)
+x = 'awesome'
+print('Python is'+ x)
+print('Python is'+'9')
 
 
-# x = "Python is "
-# y = "Awesome"
-# z = x + y
-# print(z)
+x = "Python is "
+y = "Awesome"
+z = x + y
+print(z)
 
 
 

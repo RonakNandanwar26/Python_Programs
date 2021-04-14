@@ -1,8 +1,8 @@
 # Dictionary
 # A dictionary is a collection which is unordered, changeable and indexed.
 # In Python dictionaries are written with curly brackets, and they have keys and values.
-# a = {1,2}
-# print(type(a))
+a = {1,2}
+print(type(a))
 #
 # dct = {
 #     'bio': 1+7j,
@@ -58,11 +58,11 @@
 # print(dct)
 #
 # # we can also delete whole dictionary using del
-thisdict =	{
-  "brand": ["Ford",'kdsjsd'],
-  "model": "Mustang",
-  "year": 1964
-}
+# thisdict =	{
+#   "brand": ["Ford",'kdsjsd'],
+#   "model": "Mustang",
+#   "year": 1964
+# }
 # print(thisdict)
 # # del thisdict
 # print(thisdict)
@@ -113,47 +113,47 @@ thisdict =	{
 # print(id(thisdict))
 #
 # # # Nested dictionary
-myfamily = {
-  "child1" : {
-    "name" : {'surname':'skhdsl','middlename':'xmbdskbdk'},
-    "year" : 2004
-  },
-  "child2" : {
-    "name" : "Tobias",
-    "year" : 2007
-  },
-  "child3" : {
-    "name" : "Linus",
-    "year" : 2011
-  }
-}
-#
-print(myfamily['child1'])
-print(myfamily['child1']['name'])
-print(myfamily['child1']['name']['middlename'])
+# myfamily = {
+#   "child1" : {
+#     "name" : {'surname':'skhdsl','middlename':'xmbdskbdk'},
+#     "year" : 2004
+#   },
+#   "child2" : {
+#     "name" : "Tobias",
+#     "year" : 2007
+#   },
+#   "child3" : {
+#     "name" : "Linus",
+#     "year" : 2011
+#   }
+# }
+# #
+# print(myfamily['child1'])
+# print(myfamily['child1']['name'])
+# print(myfamily['child1']['name']['middlename'])
 
 # print(myfamily.get('child1').get('name').get('surname'))
 #
 # other method
-child1 = {
-  "name" : "Emil",
-  "year" : 2004
-}
-child2 = {
-  "name" : "Tobias",
-  "year" : 2007
-}
-child3 = {
-  "name" : "Linus",
-  "year" : 2011
-}
-#
-myfamily = {
-  "child1" : child1,
-  "child2" : child2,
-  "child3" : child3
-}
-print(myfamily['child2']['year'])
+# child1 = {
+#   "name" : "Emil",
+#   "year" : 2004
+# }
+# child2 = {
+#   "name" : "Tobias",
+#   "year" : 2007
+# }
+# child3 = {
+#   "name" : "Linus",
+#   "year" : 2011
+# }
+# #
+# myfamily = {
+#   "child1" : child1,
+#   "child2" : child2,
+#   "child3" : child3
+# }
+# print(myfamily['child2']['year'])
 #
 #
 # #  get method gives value
@@ -161,19 +161,19 @@ print(myfamily['child2']['year'])
 # print(x)
 
 # # items
-z = myfamily.items()
-print(z)
+# z = myfamily.items()
+# print(z)
 #
 # # update method
 # myfamily['child4']='sakjhsdkjwb'
 # print(myfamily)
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car['color'] = 'red'
-print(car)
-car.update({"color": "White",'model':'asbckj','address':'kjsdksd','std':'shbdskj'})
-# # # #
-print(car)
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# car['color'] = 'red'
+# print(car)
+# car.update({"color": "White",'model':'asbckj','address':'kjsdksd','std':'shbdskj'})
+# # # # #
+# print(car)

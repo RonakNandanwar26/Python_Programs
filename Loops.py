@@ -11,6 +11,7 @@
 # while condition:
 # 	..code..
 # 	..code..
+#     variable increment/decrement
 
 
 # i = 1
@@ -18,15 +19,15 @@
 #     print(i)
 #     i+=1
 
-
 # break keyword
-i = 0
-while i < 5:
-    if i == 3:
-        break
-    else:
-        print(i)
-        i += 1
+# i = 0
+# while i < 5:
+#     if i == 3:
+#         break
+#     else:
+#         print(i)
+#         i += 1
+
 
 # for j in range(2):
 #     i = 1
@@ -45,15 +46,24 @@ while i < 5:
 #     if i == 3:
 #         continue
 #     print(i)
-#
+
+# i=6
+# 1
+# 2
+# 4
+# 5
+# 6
+
+
+
 # # else statement
-#
-i = 1
-while i < 6:
-  print(i)
-  i += 1
-else:
-  print("i is no longer less than 6")
+# #
+# i = 1
+# while i < 6:
+#   print(i)
+#   i += 1
+# else:
+#   print("i is no longer less than 6")
 
 
 # for loop
@@ -200,8 +210,8 @@ else:
 
 # # Building Dictionaries
 
-book_title = ['great', 'expectation', 'great', 'the', 'adventures']
-word_counter = {}
+# book_title = ['great', 'expectation', 'great', 'the', 'adventures']
+# word_counter = {}
 # # Method 1
 # for word in book_title:
 #     if word not in word_counter:

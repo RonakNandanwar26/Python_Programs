@@ -136,8 +136,9 @@
 # print(x)
 # x |= 2
 # print(x)
-
-
+x=[1,2,3,4,5,7,8,9,0,-2]
+del x[0:8:2]
+print(x)
 # x = 15
 # # << left shift
 # pr6b  int(5 << 2)
@@ -181,6 +182,10 @@
 # print(x[1])
 # # add item using append
 # x.append('orange')
+# a=[1,2]
+#
+# print(b)
+# print(a+b)
 # print(x)
 
 
@@ -234,11 +239,11 @@
 # orange-banana
 # join element of list using join method e.g '-'.join()list
 # print(lst1)
-# lst1 = ['1','2','3']
+lst1 = ['1','2','3']
 # # 1-2-3
-# lst2 = '-'.join(lst1)
-# print(lst2)
-# print(type(lst2))
+lst2 = '$'.join(lst1)
+print(lst2)
+print(type(lst2))
 
 # 1-2-3
 

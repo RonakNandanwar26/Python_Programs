@@ -2,7 +2,8 @@
 # exam_st_date = (11, 12, 2014)
 # Sample Output : The examination will start from : 11 / 12 / 2014
 
-day = input("Enter the date")
-month = input("Enter month")
-year = input("Enter year")
-print("class date {}/{}/{}".format(day, month, year))
+day = int(input("Enter the date : "))
+# print(type(day))
+month = int(input("Enter month"))
+year = int(input("Enter year"))
+print("class date {1}/{0}/{2}".format(day, month, year))

@@ -1,7 +1,7 @@
 # Python Data Types
 # int ->1244
 # float -> 1.4
-# str ->"dsfeedf",'dsfdfdfd'
+# str ->"dsfeedf",'dsfdfdfd',for multi line string use '''
 # complex -> 3+4j
 # bool -> 0 or 1 or False or True
 # additional datatypes
@@ -12,16 +12,16 @@
 
 # x = 12.5
 # print(type(x))
-#
+
 # x = 12.5 +6j
 # print(type(x))
 # x = int(x)
 # print(x)
 # print(type(x))
 
-# b = 'sahcbh' \
-#     'sdjdckds'
-# print(b)
+b = 'sahcbh' \
+    'sdjdckds'
+print(b)
 # a = '''jsnkcjdnkjdnslkdslkdlknc
 # xkjzxljkxkx
 # zxkhckjzxnkjcznx'''
@@ -36,7 +36,7 @@
 # print(a[0])
 # print(a[-1])
 
-# print(a[4:1:-2])
+# print(a[-5:-1:1]+'k')
 
 # print(a[-4:-1:-2])
 
@@ -50,12 +50,12 @@
 
 # string methods
 #
-# a = 'My Name Is Ronak'
+# a = [0,0,0]
 # print(a)
 
 
 
-# print(a.strip())
+# # print(a.strip())
 # print(a.rstrip())
 # print(a.lstrip())
 # print(a.lower())
@@ -63,14 +63,14 @@
 # print(a.capitalize())
 # print(a.title())
 # print(a.replace('is','are'))
-# print(a.replace('is','are',3))
+# print(a.replace('is','are',5))
 # print(a.split('is'))
 # print(a.split('is',2))
 # #
 # print(a.isalnum())
 # print(a.isalpha())
 # print(a.isdecimal())
-# print(a.count('Ronak'))
+# print(a.count(0))
 # print(a.isupper())
 # print(a.islower())
 # print(a.isnumeric())
@@ -89,24 +89,28 @@
 # dict()
 
 
-a = 4.9
-# print(type(a))
+# a = 4.9
+# # print(type(a))
 # a = str(a)
 # print(type(a))
+# print(a)
 # c = float(a)
 # print(c)
 # print(type(c))
 # print(complex(a))
-# print(int(a))
+c= complex(1,2)
+print(c)
+# d = int(a)
+# print(a)
 #
 # a = 1+0j
 # print(type(str(a)))
 # print(str(a))
-#
+# #
 # a = '4.5'
 # print(complex(4.5))
 # print(type(complex(a)))
-#
+# #
 # # int>float>complex>str
 
 # x = [1,2,3,4]
