@@ -12,13 +12,17 @@
 # 	..code..
 # 	..code..
 #     variable increment/decrement
+#
+# b=[1,2,3]
+# b.insert(1,3)
+# print(b)
 
-
-# i = 1
-# while i<= 5:
-#     print(i)
-#     i+=1
-
+# a=1
+# j=[]
+# for i in range(5):
+#     j.insert(5,2)
+#     a=a+1
+# print(j)
 # break keyword
 # i = 0
 # while i < 5:
@@ -27,10 +31,9 @@
 #     else:
 #         print(i)
 #         i += 1
+# print(range(10))
 
-
-# for j in range(2):
-#     i = 1
+# for i in range(2):
 #     while i < 6:
 #         print(i)
 #         if i == 3:
@@ -57,51 +60,75 @@
 
 
 # # else statement
-# #
+# # #
 # i = 1
 # while i < 6:
 #   print(i)
 #   i += 1
+#   if i==3:
+#       break
 # else:
 #   print("i is no longer less than 6")
 
 
-# for loop
-
+# # for loop
+#
 # A for loop is used for iterating over a sequence
 # (that is either a list, a tuple, a dictionary, a set, or a string).
 
+# syntax
+# for x in iterable:
+    # code
+
+
+
+
 # The range(start,stop,step) Function
-# range(6) = [0,1,2,3,4,5]
+# range(6) = [0,1,2,3,4,5]?
+# print(range(0,10,2))
 
-
-# for x in range(7):
+# for x in range(5):
 #     print(x)
 
+
+# range(10) # start=0, stop=10,step=1
+# range(0,10) # start=0, stop=10, step=1
+# range(0,10,2) # start=0, stop=10, step=2
 # The range() function defaults to 0 as a starting value,
 # however it is possible to specify the starting value by adding a parameter: range(2, 6),
 # which means values from 2 to 6 (but not including 6):
 
-# for x in range(2, 6):
+# for x in range(2,6):
 #     print(x)
 
 # The range() function defaults to increment the sequence by 1,
 # however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3)
 
-# for x in range(24,3,-2):
+# for x in range(0,10,2):
 #     print(x)
+
+
+## If we want to print the numbers in reverse order
+
+# for i in range(10,-1,-2):
+#     print(i)
 
 # With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc
+# [0,1,2,4]
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#     print(x)
 
+
+# for tuple
 # fruits = ("apple", "banana", "cherry")
 # for x in fruits:
-#     print(x,end='%')
-
+#     print(x)
 
 # Looping Through a String
-
+#
 # for x in "banana":
-#     print(x)
+#     print(x,end='')
 
 
 # The break Statement
@@ -132,6 +159,8 @@
 # The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
 #
 # for x in range(6):
+#     if x==3:
+#         continue
 #     print(x)
 # else:
 #     print("Finally finished!")
@@ -139,12 +168,11 @@
 
 # Nested Loops
 # A nested loop is a loop inside a loop.
-# The "inner loop" will be executed one time for each iteration 
-# the "outer loop":
+# The "inner loop" will be fully executed for each iteration of the "outer loop":
 
 # adj = ["red", "big", "tasty"]
 # fruits = ["apple", "banana", "cherry"]
-#
+# #
 # for x in adj:
 #     for y in fruits:
 #         print(x, y)
@@ -152,8 +180,8 @@
 
 # The pass Statement
 
-# for x in [0, 1, 2]:
-#     pass
+for x in [0, 1, 2]:
+    pass
 
 
 # cities = ['new york', 'ahmedabad','mumbai']
@@ -168,12 +196,13 @@
 # 	cities[i] = cities[i].title()
 # print(cities)
 
-
-# names = ['monica gellar kszkjzsn', 'joey tribbiani','chandler bing']
+#
+# names = ['monica gellar kszkjzsn','joey tribbiani','chandler bing']
 # for i in range(len(names)):
 #     names[i] = names[i].replace(' ', '_').title().split('_')
 # print(names)
-
+# lst=[1,2,3,'mayur']
+# print(lst)
 
 # Tag counter
 # lst = ['<greeting>', 'Hello', '</greeting>','skhdj']
@@ -186,7 +215,7 @@
 # # Pattern 
 # for i in range(1,5):
 #     for j in range(i):
-#          print(j+1, end='  ')
+#          print(j+1,end=' ')
 #     print()
 
 
@@ -212,25 +241,25 @@
 
 # book_title = ['great', 'expectation', 'great', 'the', 'adventures']
 # word_counter = {}
-# # Method 1
+# Method 1
 # for word in book_title:
 #     if word not in word_counter:
 #         word_counter[word] = 1
 #     else:
 #         word_counter[word] += 1
-
-
+#
+#
 # print(word_counter)
 
 # # Method 2
 # for word in book_title:
 #     word_counter[word] = word_counter.get(word,0)+1
 # print(word_counter)
-#
+
 # for key,value in word_counter.items():
 #     print(key,end=' ')
-#     print(value)
-
+# #     print(value)
+#
 # hand = []
 # card_deck = [1,2,3,4,5,6,7,8]
 # while sum(hand)<=17:

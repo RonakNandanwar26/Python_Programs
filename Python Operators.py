@@ -1,12 +1,17 @@
 """
-Arithmetic operators
-Assignment operators
-Comparison operators
-Logical operators
-Identity operators
-Membership operators
-Bitwise operators
-"""
+Arithmetic operators(+,-,*,/,//,**,%)
+Assignment operators('='assigning is from right to left)
+Comparison operators(>,<,<=,>=,==,!=)
+Logical operators(and,or,not)
+Identity operators(is,is not)
+Membership operators(in, not in)
+Bitwise operators(&,|,^)
+
+x=2
+y=3
+z=4
+if (not(x>y and x>z)):
+    print('false')
 
 # Arithmatic operators
 # + - * / % ** //(Integer Division / Floor division)
@@ -17,6 +22,7 @@ Bitwise operators
 # print(3**2)
 # print(46//4)
 # print(46%4)
+# print(2**3)
 
 
 # Assignment operator
@@ -83,7 +89,7 @@ Bitwise operators
 # 2 10
 # 3 11
 #   10
-print(2 & 3)
+# print(2 & 3)
 
 # AND
 # A B O/p
