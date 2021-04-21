@@ -179,12 +179,12 @@
 
 
 # The pass Statement
+#
+# for x in [0, 1, 2]:
+#     pass
 
-for x in [0, 1, 2]:
-    pass
 
-
-# cities = ['new york', 'ahmedabad','mumbai']
+cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # capitalized_cities = []
 # print("capitakized_cities: ")
 # for city in cities:
@@ -193,16 +193,15 @@ for x in [0, 1, 2]:
 # print(cities)
 
 # for i in range(len(cities)):
-# 	cities[i] = cities[i].title()
+# 	cities[i] = cities[i].capitalize()
 # print(cities)
 
 #
-# names = ['monica gellar kszkjzsn','joey tribbiani','chandler bing']
+# names = ['monica gellar','joey tribbiani','chandler bing']
 # for i in range(len(names)):
 #     names[i] = names[i].replace(' ', '_').title().split('_')
 # print(names)
-# lst=[1,2,3,'mayur']
-# print(lst)
+
 
 # Tag counter
 # lst = ['<greeting>', 'Hello', '</greeting>','skhdj']
@@ -210,13 +209,21 @@ for x in [0, 1, 2]:
 # for i in lst:
 #     if i[0]=='<' and i[-1]=='>':
 #         count+=1
+#
 # print(count)
 
+# n = 'Ronak'
+# for i in n:
+#     print(i,end=' ')
+
 # # Pattern 
-# for i in range(1,5):
-#     for j in range(i):
+# for i in [1,2,3,4]:
+#     for j in [0,1,2,3]:
 #          print(j+1,end=' ')
 #     print()
+
+
+
 
 
 # # program to display student's marks from record
