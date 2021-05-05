@@ -1,54 +1,84 @@
 # syntax
 # function definition
+
+# DRY = Do Not Repeat Yourself
+
 # def function_name(parameters):
 # 	...code...
 # 	...code...
 # 	...code...
+#
 # function call
 # function_name(parameters)
 
+# function name should not be pre defined keyword
+
 # def operation_print():
 # 	print('My name is ROnak')
-
+#
 # operation_print()
+
 
 # def operation_return():
 # 	return 'My name is ROnak'
-
-# print(operation_return())
-
-
-
-# a = operation_return()
+#
+# a = 'My name is ROnak'
 # print(a)
-# # or
 # print(operation_return())
 
-# def sum1():
-# 	print('sum is jsdkajkdbs')
 
-# sum1()
+# Python follows DRY Priniciple  (Don't Repeat Yourself)
 
-# Python follows DRY Priniciple  (Don't Repeat Yourself) 
-# def operation(x):
-# 	x +=5
-# 	return x
+# Parameterized Function
+
+def operation(y):
+	y +=5
+	return y
+
+
 # a=14
 # b = operation(a)
 # print(b)
-# x = 5
-# print(operation(x))
-# print(operation(10))
-# print(operation(12))
-# print(operation(10))
 
-
-
-# def addition(x,y):
-# 	z = x+y
+# global and local scope of variables
+# z = 10
+# x = 5 # global variable
+# def operation_minus(y):
+# 	# y is local variable
+# 	global z
+# 	z = 15
+# 	z = x-y+z
 # 	print(z)
+# 	return z
+#
+#
+# print(operation_minus(15))
+# print(z)
 
-# addition(2,3)
+
+x = 5
+print(operation(x))
+print(operation(10))
+print(operation(12))
+print(operation(10))
+
+
+
+def addition(x,y,z):
+	z = x+y+z
+	print(z)
+	z = x-y+z
+	print(z)
+	z = x*y+z
+	print(z)
+	z = x/y
+	print(z)
+	z = x%y
+	print(z)
+	z = x // y
+	print(z)
+
+addition(2,3,4)
 
 
 # default arguement
@@ -82,16 +112,16 @@
 
 # Global and local variables
 
-x = 5
-
-def plus5():
-	x = 10
-	x = x + 5
-	print(x)
-
-
-plus5()
-print(x)
+# x = 5
+#
+# def plus5():
+# 	x = 10
+# 	x = x + 5
+# 	print(x)
+#
+#
+# plus5()
+# print(x)
 
 
 

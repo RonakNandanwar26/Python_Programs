@@ -73,27 +73,25 @@
 
 # # for loop
 #
-# A for loop is used for iterating over a sequence
+# A for loop is used for iterating over a sequence data types
 # (that is either a list, a tuple, a dictionary, a set, or a string).
 
 # syntax
 # for x in iterable:
-    # code
-
-
+#     code
 
 
 # The range(start,stop,step) Function
-# range(6) = [0,1,2,3,4,5]?
+# range(6) = [0,1,2,3,4,5]
 # print(range(0,10,2))
-
-# for x in range(5):
+#
+# for x in range(6):
 #     print(x)
 
 
 # range(10) # start=0, stop=10,step=1
-# range(0,10) # start=0, stop=10, step=1
-# range(0,10,2) # start=0, stop=10, step=2
+range(7,10) # start=0, stop=10, step=1
+range(0,10,2) # start=0, stop=10, step=2
 # The range() function defaults to 0 as a starting value,
 # however it is possible to specify the starting value by adding a parameter: range(2, 6),
 # which means values from 2 to 6 (but not including 6):
@@ -110,11 +108,11 @@
 
 ## If we want to print the numbers in reverse order
 
-# for i in range(10,-1,-2):
+# for i in range(10,-1,-1):
 #     print(i)
 
 # With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc
-# [0,1,2,4]
+
 # fruits = ["apple", "banana", "cherry"]
 # for x in fruits:
 #     print(x)
@@ -128,7 +126,7 @@
 # Looping Through a String
 #
 # for x in "banana":
-#     print(x,end='')
+#     print(x)
 
 
 # The break Statement
@@ -137,6 +135,7 @@
 #     print(x)
 #     if x == "banana":
 #         break
+
 
 
 # fruits = ["apple", "banana", "cherry"]
@@ -148,11 +147,11 @@
 
 # The continue Statement
 
-# fruits = ["apple", "banana", "cherry"]
-# for x in fruits:
-#     if x == "banana":
-#         continue
-#     print(x)
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    if x == "banana":
+        continue
+    print(x)
 
 # Else in For Loop
 
@@ -160,7 +159,7 @@
 #
 # for x in range(6):
 #     if x==3:
-#         continue
+#         break
 #     print(x)
 # else:
 #     print("Finally finished!")
@@ -216,7 +215,7 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # for i in n:
 #     print(i,end=' ')
 
-# # Pattern 
+# # Pattern
 # for i in [1,2,3,4]:
 #     for j in [0,1,2,3]:
 #          print(j+1,end=' ')
@@ -229,7 +228,11 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # # program to display student's marks from record
 
 # marks = {'James': 90, 'Jules': 55, 'Arthur': 77,'hkdskjs':46}
-#
+
+# print(marks)
+# for i in marks:
+#     print(i)
+
 # for student in marks:
 #     if (student == 'Arthur'):
 #         print(marks[student])
@@ -238,10 +241,6 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 #     print('No entry with that name found.')
 
 
-# a = [1,2,3]
-# b = [4,5,6]
-# c = a + b
-# print(c)
 
 
 # # Building Dictionaries
@@ -258,15 +257,19 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 #
 # print(word_counter)
 
+# book_title = ['great', 'expectation', 'great', 'the', 'adventures']
+# word_counter = {}
+
 # # Method 2
 # for word in book_title:
 #     word_counter[word] = word_counter.get(word,0)+1
 # print(word_counter)
 
+# print(word_counter.items())
 # for key,value in word_counter.items():
 #     print(key,end=' ')
-# #     print(value)
-#
+#     print(value)
+
 # hand = []
 # card_deck = [1,2,3,4,5,6,7,8]
 # while sum(hand)<=17:
@@ -297,28 +300,29 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # for i in range(1,number+1):
 #     product *= i
 # print(product)
-
+#
 # number = 5
 # product = 120
-# i = 6
+# i = 5
 
 # Nearest Perfect Square
-
 # limit = int(input('Enter the limit: '))
-# number = 0
+# number = 1
 # nearest_perfect_square = 0
 # while number**2<=limit:
 #     nearest_perfect_square = number**2
 #     number+=1
+#
 # print(nearest_perfect_square)
-
-# number = 6
-# nearest_perfect_square = 25
+#
+# limit = 40
+# number = 7
+# nearest_perfect_square = 36
 
 
 # num_list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-# count_odd = 2
-# list_sum = 4
+# count_odd = 0
+# list_sum = 0
 # i = 0
 # while (count_odd<10) and (i<len(num_list)):
 #     if num_list[i]%2!=0:
@@ -329,15 +333,12 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # print(count_odd)
 # print(list_sum)
 
-# i = 9
-# count_odd = 5
-# list_sum = 25
+# i = 5
+# count_odd = 2
+# list_sum = 9
 # 1
 # 3
 # 5
-# 7
-# 9
-
 # range(0,stop,1)
 
 # for i in range(10,0,-2):

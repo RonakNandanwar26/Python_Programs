@@ -157,7 +157,7 @@ print(type(a))
 #
 #
 # #  get method gives value
-# x = myfamily.get('child2').get('name')
+# x = myfamily.get('child2')
 # print(x)
 
 # # items
