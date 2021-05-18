@@ -2,14 +2,14 @@
 # function_name = lambda parameters: operation
 
 # # Normally
-# def mul(x,y):
-# 	z = x*y
-# 	return z
-#
-# print(mul(2,3))
+def mul(x,y):
+	z = x*y
+	return z
+
+print(mul(2,3))
 
 mul = lambda x,y: x*y
-print(mul(3,3))
+mul(3,3)
 
 
 #

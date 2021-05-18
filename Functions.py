@@ -30,10 +30,10 @@
 # Python follows DRY Priniciple  (Don't Repeat Yourself)
 
 # Parameterized Function
-
-def operation(y):
-	y +=5
-	return y
+#
+# def operation(y):
+# 	y +=5
+# 	return y
 
 
 # a=14
@@ -54,52 +54,53 @@ def operation(y):
 #
 # print(operation_minus(15))
 # print(z)
+#
+#
+# x = 5
+# print(operation(x))
+# print(operation(10))
+# print(operation(12))
+# print(operation(10))
+#
+#
 
-
-x = 5
-print(operation(x))
-print(operation(10))
-print(operation(12))
-print(operation(10))
-
-
-
-def addition(x,y,z):
-	z = x+y+z
-	print(z)
-	z = x-y+z
-	print(z)
-	z = x*y+z
-	print(z)
-	z = x/y
-	print(z)
-	z = x%y
-	print(z)
-	z = x // y
-	print(z)
-
-addition(2,3,4)
+# def addition(x,y,z):
+# 	z = x+y+z
+# 	print(z)
+# 	z = x-y+z
+# 	print(z)
+# 	z = x*y+z
+# 	print(z)
+# 	z = x/y
+# 	print(z)
+# 	z = x%y
+# 	print(z)
+# 	z = x // y
+# 	print(z)
+#
+# addition(2,3,4)
 
 
 # default arguement
 
-# def multiply(x=2,y=1):
-# 	z = x*y
+# def multiply(x,y=1,z=1):
+# 	z = x*y+z
 # 	print(z)
 #
-# multiply()
-
-
+# multiply(5)
 
 # population density
-
+#
 # def population_density(population=1000,area=10000):
 # 	density = population/area
 # 	print(density)
 #
-# population_density()
+# population_density(25456,10000)
 
 
+
+# input = 22 days
+# output = 3 weeks and 1 day
 
 # def week_days(day):
 # 	week = day // 7

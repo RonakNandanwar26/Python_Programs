@@ -1,11 +1,9 @@
 # try__except__else__finally
 
 
-# try: It is only mandatory clause in exception handling.try runs first in 
-# 	try__except
+# try: It is  mandatory clause in exception handling.try runs first in try__except
 
-# except: if python runs into an exception, then code present in except
-# 		will run.
+# except: if python runs into an exception, then code present in except will run.
 
 # else:  if try is successfully executed then after execution of try block else part
 # 		will execute.
@@ -14,7 +12,7 @@
 
 
 # x = int(input('Enter a number'))
-# print(x)
+# print(type(x))
 
 # try:
 # 	x = int(input('Enter a number'))
@@ -32,7 +30,7 @@
 # 	print('sdhbsdkjns')
 # finally:
 # 	print('your task is done!')
-# # --------------------------------------------
+# --------------------------------------------
 
 # x = int(input('Enter a number'))
 # y = int(input('enter a number'))
@@ -54,11 +52,11 @@
 
 
 
-try:
-	x = int(input('Enter a number'))
-	y = int(input('enter a number'))
-	z = x/y
-	print(z)
-except (ValueError,ZeroDivisionError,KeyboardInterrupt):
-	print('not a valid number or you are dividing value by 0 or you pass the keyboard interrupt')
+# try:
+# 	x = int(input('Enter a number'))
+# 	y = int(input('enter a number'))
+# 	z = x/y
+# 	print(z)
+# except (ValueError,ZeroDivisionError,KeyboardInterrupt):
+# 	print('not a valid number or you are dividing value by 0 or you pass the keyboard interrupt')
 

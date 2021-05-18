@@ -147,11 +147,11 @@ range(0,10,2) # start=0, stop=10, step=2
 
 # The continue Statement
 
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-    if x == "banana":
-        continue
-    print(x)
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#     if x == "banana":
+#         continue
+#     print(x)
 
 # Else in For Loop
 
@@ -203,7 +203,7 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 
 
 # Tag counter
-# lst = ['<greeting>', 'Hello', '</greeting>','skhdj']
+# lst = ['<greeting>', 'Hello', '</greeting>','skhdj','1']
 # count = 0
 # for i in lst:
 #     if i[0]=='<' and i[-1]=='>':
@@ -216,8 +216,8 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 #     print(i,end=' ')
 
 # # Pattern
-# for i in [1,2,3,4]:
-#     for j in [0,1,2,3]:
+# for i in range(5):
+#     for j in range(i):
 #          print(j+1,end=' ')
 #     print()
 
@@ -232,9 +232,9 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # print(marks)
 # for i in marks:
 #     print(i)
-
+# name = input('Enter name: ')
 # for student in marks:
-#     if (student == 'Arthur'):
+#     if (student == name):
 #         print(marks[student])
 #         break
 # else:
@@ -253,14 +253,14 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 #         word_counter[word] = 1
 #     else:
 #         word_counter[word] += 1
-#
-#
+
+
 # print(word_counter)
 
 # book_title = ['great', 'expectation', 'great', 'the', 'adventures']
 # word_counter = {}
-
-# # Method 2
+#
+# # # Method 2
 # for word in book_title:
 #     word_counter[word] = word_counter.get(word,0)+1
 # print(word_counter)
@@ -312,9 +312,9 @@ cities = ['new york', 'ahmedabad','mumbai', 'my name is ronak']
 # while number**2<=limit:
 #     nearest_perfect_square = number**2
 #     number+=1
-#
+# #
 # print(nearest_perfect_square)
-#
+# #
 # limit = 40
 # number = 7
 # nearest_perfect_square = 36
