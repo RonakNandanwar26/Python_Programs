@@ -151,3 +151,128 @@
 # print(c1.wheel)
 #
 # print(c2.wheel)
+
+
+
+# Accessesor ->getter
+# Mutator ->setter
+
+
+# Types of Method
+# 1. instance method
+# 2.class method
+# 3. static method
+
+
+#
+# class Student:
+#     school = 'Silverwing'
+#
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
+#
+#     def get_student_info(self):
+#         print(self.name)
+#         print(self.marks)
+#
+#     @classmethod
+#     def get_school(cls):
+#         print(cls.school)
+#
+#     @staticmethod
+#     def info():
+#         print('This is school')
+#
+#
+# s = Student('Ronak',45)
+# s.get_student_info()
+# s.get_school()
+# s.info()
+
+
+# Concepts of OOPs Programming
+# 1. Encapsulation
+# 2. Abstraction
+# 3. Inheritance
+# 4. Polymorphism
+
+
+
+
+# Inheritance
+
+# Parent class -> Super class
+# child class -> sub class
+
+# single Inheritance
+# class A:
+#     def feature1(self):
+#         print('This is feature 1')
+#
+# class B(A):
+#     def feature2(self):
+#         print('This is feature 2')
+#
+# a = A()
+# a.feature1()
+# b = B()
+# b.feature2()
+# b.feature1()
+
+
+# Multilevel Inheritance
+
+# class A:
+#     def feature1(self):
+#         print('This is feature 1')
+#
+# class B(A):
+#     def feature2(self):
+#         print('This is feature 2')
+#
+# class C(B):
+#     def feature3(self):
+#         print('This is feature 3')
+#
+#
+# a = A()
+# a.feature1()
+# b=B()
+# b.feature1()
+# b.feature2()
+#
+# c = C()
+# c.feature1()
+# c.feature2()
+# c.feature3()
+
+
+# Multiple Inheritance
+
+# class A:
+#     def feature1(self):
+#         print('This is feature 1')
+#
+# class B:
+#     def feature2(self):
+#         print('This is feature 2')
+# class C(A,B):
+#     def feature3(self):
+#         print('This is feature 3')
+#
+#
+# a=A()
+# a.feature1()
+# b=B()
+# b.feature2()
+# c =C()
+# c.feature1()
+# c.feature2()
+# c.feature3()
+#
+#
+
+
+
+
