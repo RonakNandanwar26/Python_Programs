@@ -9,13 +9,16 @@ zxlknclkxz'''
 # =   ==
 # print('Hello world!')
 
-print(1*2)
+# print(1*2)
+
+
 
 # variable
-x = 1
+x = 1.0
+print(id(x))
 print(type(x))
 # print(x)
-#
+# print(x)
 x = 5
 print(x)
 # x=12
@@ -23,7 +26,7 @@ print(x)
 
 # x = 15
 
-y = 'hksdks'
+y = "hksdks"
 print(type(y))
 # x = 10
 # print(x)
@@ -31,7 +34,7 @@ print(type(y))
 lst = [1,2,'kjsdnckj']
 print(type(lst))
 
-
+# to calculate age in year 2021
 x = 2021
 y = 1999
 z = x-y
@@ -44,7 +47,12 @@ _birth_year = 1996
 print(current_year-_birth_year)
 
 # PEP8 documentation
+# any alphabets(capital-small)
+# Currentyear = 2021
 
+#any alpha numeric but first charcater of variable must not a number
+n9umb7er9 = 9
+# print(n9umb7er9)
 # r9onak89 = 9
 # print(r9onak89)
 
@@ -61,8 +69,12 @@ print(current_year-_birth_year)
 # mhds
 # f7h9zjxncljxz8zxknclkxz8 = 7
 # sajck9ew7ew7w08e7we07ew0
-# _x_zn_cn84949kjx_ = 56
+_x_zn_cn84949kjx_ = 56
 # print(_x_zn_cn84949kjx_)
+
+
+
+
 
 # Invalid Varible declaration
 
@@ -71,33 +83,33 @@ print(current_year-_birth_year)
 
 
 # Camelcase Notation
-# CurrentAge = 32732
-# CurrentAgeOfYear2021 = 9
+# currentAge = 32732
+# currentAgeOfYear2021 = 9
 
 # x=1
-x,y,z = 'ksdhbc','sdjbc', 3
-print(x,y,z)
+# x,y,z = 'ksdhbc','sdjbc', 3
+# print(x,y,z)
 # print(y)
 # print(z)
 # #
 # #
-x=y=z='orange'
-print(x)
-print(y)
-print(z)
+# x=y=z='orange'
+# print(x)
+# print(y)
+# print(z)
 # print(x,y,z)
 
 
 
-x = 'awesome'
-print('Python is'+ x)
-print('Python is'+'9')
-
-
-x = "Python is "
-y = "Awesome"
-z = x + y
-print(z)
+# x = 'awesome'
+# print('Python is'+ x)
+# print('Python is'+'9')
+#
+#
+# x = "Python is "
+# y = "Awesome"
+# z = x + y
+# print(z)
 
 
 

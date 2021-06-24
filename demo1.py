@@ -12,20 +12,21 @@
 
 # x = 12.5
 # print(type(x))
-
+#
 # x = 12.5 +6j
 # print(type(x))
 # x = int(x)
 # print(x)
 # print(type(x))
 
-b = 'sahcbh' \
-    'sdjdckds'
-print(b)
+# b = 'sahcbh' \
+#     'sdjdckds'
+# print(b)
 # a = '''jsnkcjdnkjdnslkdslkdlknc
 # xkjzxljkxkx
 # zxkhckjzxnkjcznx'''
 # print(a)
+# print(type(a))
 
 # indexing in Python
 # Left to Right :-> 0 to n-1 Positive Index
@@ -34,12 +35,22 @@ print(b)
 # a = 'Ronak'
 # print(type(a))
 # print(a[0])
-# print(a[-1])
+# print(a[-5])
+# a[start_index:stop_index:step]
+# print(a[0:4])
+#
+# print(a[-3:-1:2])
 
-# print(a[-5:-1:1]+'k')
+# print(a[-1:-4:-1])
+#
+# print(a[-4:-1:2])
 
-# print(a[-4:-1:-2])
-
+# print(a[2:])
+#
+# print(a[:4])
+# print(a)
+# print(a[:])
+# print(a[::2])
 # print(a[1::2])
 # o
 #
@@ -49,15 +60,11 @@ print(b)
 
 
 # string methods
-#
-# a = [0,0,0]
+# a = 'my name is ronak is is is is is is is is is'
 # print(a)
-
-
-
-# # print(a.strip())
-# print(a.rstrip())
-# print(a.lstrip())
+# print(a.strip())  # to remove space from both side
+# print(a.rstrip())  # remove space from right side
+# print(a.lstrip()) # remove space from left side
 # print(a.lower())
 # print(a.upper())
 # print(a.capitalize())
@@ -66,11 +73,14 @@ print(b)
 # print(a.replace('is','are',5))
 # print(a.split('is'))
 # print(a.split('is',2))
-# #
+
+
+# a = 'My Name Is Ronak'
+#
 # print(a.isalnum())
 # print(a.isalpha())
 # print(a.isdecimal())
-# print(a.count(0))
+# print(a.count('0'))
 # print(a.isupper())
 # print(a.islower())
 # print(a.isnumeric())
@@ -89,26 +99,29 @@ print(b)
 # dict()
 
 
-# a = 4.9
-# # print(type(a))
-# a = str(a)
+# a = 4
 # print(type(a))
+# a = str(a)
 # print(a)
-# c = float(a)
+# print(type(a))
+# # print(a)
+# c = float('4')
 # print(c)
 # print(type(c))
 # print(complex(a))
-c= complex(1,2)
-print(c)
+# c= complex(1,2)
+# print(c)
 # d = int(a)
 # print(a)
-#
+# #
+
+# print(int(4.9))
 # a = 1+0j
 # print(type(str(a)))
 # print(str(a))
-# #
+# # #
 # a = '4.5'
-# print(complex(4.5))
+# print(complex(a))
 # print(type(complex(a)))
 # #
 # # int>float>complex>str

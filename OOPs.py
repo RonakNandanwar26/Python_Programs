@@ -274,5 +274,65 @@
 #
 
 
+# hierarchical inheritance
+# class A:
+#     def feature1(self):
+#         print('feature1')
+#
+# class B(A):
+#     def feature2(self):
+#         print('feature2')
+#
+# class C(A):
+#     def feature3(self):
+#         print('feature3')
+#
+# class D(A):
+#     def feature4(self):
+#         print('feature4')
+#
+#
+# c = C()
+# c.feature1()
 
+
+# hybrid inheritance
+
+# class A:
+#     def feature1(self):
+#         print('feature1')
+#
+# class B(A):
+#     def feature2(self):
+#         print('feature2')
+#
+# class C(A):
+#     def feture3(self):
+#         print('feature3')
+#
+# class D(B,C):
+#     def feature4(self):
+#         print('feature4')
+#
+# d = D()
+# d.feature1()
+
+
+# polymorphism
+
+# class PyCharm:
+#     def execute(self):
+#         print('runnig A')
+#
+# class VsCode:
+#     def execute(self):
+#         print('runing B')
+#
+# class program:
+#     def code(self,ide):
+#         ide.execute()
+#
+# ide = PyCharm()
+# p = program()
+# p.code(ide)
 
